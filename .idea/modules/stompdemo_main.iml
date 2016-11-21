@@ -22,8 +22,11 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:1.4.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-websocket:1.4.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-amqp:1.4.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.webjars:webjars-locator:0.32" level="project" />
     <orderEntry type="library" name="Gradle: org.codehaus.groovy:groovy:2.4.7" level="project" />
+    <orderEntry type="library" name="Gradle: io.projectreactor:reactor-net:2.0.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: io.projectreactor.ipc:reactor-netty:0.6.0.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:1.4.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:1.4.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.hibernate:hibernate-validator:5.2.4.Final" level="project" />
@@ -32,7 +35,13 @@
     <orderEntry type="library" name="Gradle: org.springframework:spring-webmvc:4.3.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-messaging:4.3.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-websocket:4.3.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.amqp:spring-rabbit:1.6.5.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.webjars:webjars-locator-core:0.30" level="project" />
+    <orderEntry type="library" name="Gradle: io.projectreactor:reactor-bus:2.0.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: io.projectreactor:reactor-stream:2.0.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-all:4.1.6.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.projectreactor.ipc:reactor-ipc:0.6.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Gradle: io.projectreactor:reactor-core:2.0.8.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot:1.4.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:1.4.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-logging:1.4.2.RELEASE" level="project" />
@@ -50,13 +59,24 @@
     <orderEntry type="library" name="Gradle: org.springframework:spring-beans:4.3.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-context:4.3.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-expression:4.3.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.amqp:spring-amqp:1.6.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.retry:spring-retry:1.1.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-tx:4.3.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: com.rabbitmq:http-client:1.0.0.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: com.rabbitmq:amqp-client:3.6.5" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.21" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.commons:commons-lang3:3.1" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.commons:commons-compress:1.9" level="project" />
+    <orderEntry type="library" name="Gradle: com.goldmansachs:gs-collections:5.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.reactivestreams:reactive-streams:1.0.0" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.1.7" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.21" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:jul-to-slf4j:1.7.21" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:log4j-over-slf4j:1.7.21" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpclient:4.5.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.goldmansachs:gs-collections-api:5.1.0" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.1.7" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpcore:4.4.5" level="project" />
+    <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.10" level="project" />
   </component>
 </module>

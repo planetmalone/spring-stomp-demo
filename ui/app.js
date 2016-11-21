@@ -33,7 +33,13 @@ function disconnect() {
 }
 
 function sendName() {
-    stompClient.send("/ws/hello", {}, JSON.stringify({'name': $("#name").val()}));
+    var req = new XMLHttpRequest();
+    req.open('POST', 'http://localhost:8080/app/hello', false);
+    req.setRequestHeader('Content-Type', 'application/json');
+    req.send(JSON.stringify({
+        name: $('#name').val()
+    }));
+    //stompClient.send("/ws/hello", {}, JSON.stringify({'name': $("#name").val()}));
 }
 
 function showGreeting(message) {
